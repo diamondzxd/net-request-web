@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "build": "docker build . -t diamondzxd/net-request-web:latest && docker push diamondzxd/net-request-web:latest"
   },
   "author": "",
   "license": "ISC",
